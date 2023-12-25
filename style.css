@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    background-color: #ffb3c6;
+    text-align: center;
+    background-image: url("images.jpeg");
+    /* Replace "images.jpeg" with the path to your image file */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Adjust according to your design preferences */
+}
+
+
+h1 {
+    /* font-size: 4vmin; */
+    /* margin-top: 20px; */
+    color: beige;
+    font-family: cursive;
+    /* text-shadow: 5px 5px 15px yellow; */
+    font-size: 6vmin;
+    font-weight: 900;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* background-color: aqua; */
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+
+    width: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 20vmin;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 10px 10px 10px #0b0204;
+    font-size: 7vmin;
+    font-weight: 700;
+    background-color: rgb(250, 250, 119);
+
+    color: black;
+}
+
+#new-btn {
+    height: 5vmin;
+    width: 20vmin;
+    font-size: 2.5vmin;
+    font-weight: 700;
+    font-family: cursive;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    box-shadow: 10px 10px 15px black;
+
+
+}
+
+#new-btn:hover {
+    background-color: rgba(255, 255, 255, 0.355);
+    color: yellow;
+    box-shadow: 10px 10px 15px yellow;
+}
+
+.hide {
+    display: none;
+}
+
+.msg {
+
+
+    font-size: 6vmin;
+    font-family: cursive;
+    font-weight: 800;
+    color: yellow;
+    text-shadow: 10px 10px 10px black;
+}
+
+#reset-btn {
+    height: 5vmin;
+    width: 20vmin;
+    font-size: 2.5vmin;
+    font-weight: 700;
+    font-family: cursive;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 15px black;
+    /* border: 2px solid black; */
+    color: black;
+    margin-top: 10px;
+}
+
+#reset-btn:hover {
+    background-color: rgba(255, 255, 255, 0.355);
+    color: yellow;
+    box-shadow: 10px 10px 15px yellow;
+
+}
